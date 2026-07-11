@@ -1,0 +1,6 @@
+molecule,rmsd_A,metal,nuclearity,coordination_conserved,metal_sphere_RMSD_A,max_ML_bond_delta_A,max_LML_angle_delta_deg,likely_source,technical_status,notes
+Cisplatin_Pt_7032859,0.9585,Pt,1,True,0.113603,0.145932,7.513469,coordination topology conserved; deviation appears moderate or distributed,completed,no_prmtop_mol2pdb_reader
+Cu2_dinuc_1100140,1.6162,Cu,3,False,1.738740,3.639895,126.650618,metal coordination not fully conserved; inspect possible M-L stretching/loss,completed,no_prmtop_mol2pdb_reader
+Ir_mono_1100788,1.0227,Ir,2,True,0.480260,0.183513,41.324022,global RMSD is larger than local metal-sphere RMSD; likely ligand/global reorientation dominates,completed,no_prmtop_mol2pdb_reader
+Sc_mono_1503833,2.6685,Sc,5,False,1.253106,1.112752,36.216831,metal coordination not fully conserved; inspect possible M-L stretching/loss,completed but RMSD above outlier threshold,no_prmtop_mol2pdb_reader
+Tc_mono_1514290,0.9456,,0,,,,,insufficient local metrics; manual inspection recommended,completed,
